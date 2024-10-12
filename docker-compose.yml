@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  ahrom-website-nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ahrom-website-nextjs
+    ports:
+      - "3941:3941"
+    networks:
+      - nginx_proxy_manager
+    restart: unless-stopped
+
+networks:
+  nginx_proxy_manager:
+    external: true
+    name: npm_network

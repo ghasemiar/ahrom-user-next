@@ -1,0 +1,49 @@
+{
+  "name": "ahrom-website",
+  "version": "2.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3941",
+    "lint": "next lint",
+    "elint": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@types/aos": "3.0.7",
+    "@types/fslightbox-react": "1.7.7",
+    "animate.css": "4.1.1",
+    "aos": "2.3.4",
+    "axios": "^1.7.7",
+    "fslightbox-react": "1.7.6",
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-accessible-accordion": "5.0.0",
+    "react-dom": "18.2.0",
+    "react-tabs": "6.0.2",
+    "sass": "1.70.0",
+    "sharp": "0.33.3",
+    "swiper": "11.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "20.10.0",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "@typescript-eslint/eslint-plugin": "6.6.0",
+    "@typescript-eslint/parser": "6.6.0",
+    "autoprefixer": "10.4.17",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-import-resolver-typescript": "3.5.2",
+    "eslint-plugin-import": "2.26.0",
+    "http-server": "14.1.1",
+    "postcss": "8.4.35",
+    "prettier": "2.8.2",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3"
+  }
+}
